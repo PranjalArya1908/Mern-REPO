@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1px 40px;
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+}
+#intro{
+    height: 45%;
+    width: 100%;
+    background-color: bisque;
+    padding: 50px;
+}
+#intro h1{
+    font-size: 100px;
+    letter-spacing: -1px;
+    line-height: 80px;
+}
+#place{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 40px;
+}
+#place h3,#place h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+#box{
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 1s;
+}
+#box:hover img{
+    scale: 1.2;
+    
+}
+button{
+    width: 300px;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    color: #000;
+    background-color: rgb(255, 198, 128);
+    transition: all ease 0.7s;
+}
+button:hover{
+    box-shadow: 5px 5px #000;
+}
+#intro h1,h3,h4{
+    filter: drop-shadow(5px 5px #fff);
+}
+#intro h1::selection{
+    color: #fff;
+    background-color: red;
+}
+#flex{
+    display: flex;
+    
+}
+.detail{
+    display: flex;
+    margin-left: 55px;
+margin-top: 15px;
+
+}
+#about{
+  width: 400px;
+  font-size: larger;
+  border-left: dotted 5px black;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+#edu{
+    padding-left: 45px;
+    font-size: larger;
+    padding-right: 45px;
+    border-left: dotted 5px black;
+}
+#social{
+    padding-left: 80px;
+    font-size: larger;
+    border-left: dotted 5px black;
+}
+.ri-instagram-fill{
+    font-size: 40px;
+}
+.ri-linkedin-box-fill{
+    font-size: 40px;
+}
